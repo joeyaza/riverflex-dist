@@ -1177,35 +1177,36 @@ header {
   left: 160px;
   top: 67px; }
 
-header:before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 830px;
-  height: 125px;
-  background-color: white;
-  right: -114px;
-  top: 189px; }
-
-header:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 810px;
-  height: 70px;
-  background-color: white;
-  left: -38px;
-  top: 232px;
-  z-index: 1; }
-
 /*medium*/
 @media (min-width: 768px) {
   /*.header-logo {
 		position: absolute;
 	}
 */ }
+
+/*extra large*/
+@media (min-width: 1200px) {
+  header:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 830px;
+    height: 125px;
+    background-color: white;
+    right: -114px;
+    top: 189px; }
+  header:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 810px;
+    height: 70px;
+    background-color: white;
+    left: -38px;
+    top: 232px;
+    z-index: 1; } }
 
 footer {
   background: #1f1740;
