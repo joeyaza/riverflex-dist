@@ -1506,7 +1506,7 @@ ul, li {
   #pre-footer {
     text-align: left; }
   .thirdly {
-    margin-top: 120px; }
+    /*margin-top: 120px;*/ }
   .svg-header {
     margin-top: -150px; }
     .svg-header path {
