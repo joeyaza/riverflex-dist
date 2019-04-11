@@ -1174,7 +1174,7 @@ header {
   padding-top: 15px; }
 
 .header-logo {
-  -webkit-transform: scaleX(-1) rotate(90deg);
+  transform: rotate(90deg);
   left: 160px;
   top: 67px; }
 
@@ -1283,6 +1283,8 @@ h2 {
   color: #1f1750;
   font-size: 35px;
   font-family: 'sofia_pro'; }
+  h2.bold {
+    font-family: "sofia_pro_black"; }
 
 h3 {
   font-family: 'sofia_pro';
@@ -1318,7 +1320,7 @@ button.primary {
   border-radius: 19px;
   border: solid 3px #2e00df;
   color: #2e00df;
-  padding: 5px 10px; }
+  padding: 8px 40px; }
   button.primary:hover {
     background: #2e00df;
     color: white; }
@@ -1328,7 +1330,7 @@ button.secondary {
   border-radius: 19px;
   background-color: #ff8b5c;
   color: white;
-  padding: 8px 10px; }
+  padding: 10px 40px; }
   button.secondary:hover {
     background: white;
     color: #ff8b5c; }
@@ -1369,6 +1371,8 @@ ul, li {
     fill: #f5f5f5; }
   .svg-grey #wave1 {
     visibility: hidden; }
+  .svg-grey.background {
+    z-index: -10; }
   .svg-header {
     margin-top: -60px; }
     .svg-header path {
@@ -1377,23 +1381,36 @@ ul, li {
       visibility: hidden; }
   .img {
     max-width: 100%; }
+    .img-s {
+      max-width: 95%;
+      width: 95%; }
   #intro hr {
     height: 2px;
     opacity: 0.4;
     background: #6a7181; }
   #impact {
     padding-top: 150px; }
+    #impact a {
+      color: #2e00df;
+      text-decoration: underline; }
   #talent {
     background-color: #f5f5f5;
-    padding-top: 150px; }
+    padding-top: 150px;
+    padding-bottom: 300px; }
   #lean {
     background-color: #f5f5f5;
     padding-top: 150px; }
+    #lean a {
+      color: #2e00df;
+      text-decoration: underline; }
   #enjoy {
     background: linear-gradient(-283deg, #0e73df, #2ce4b5);
     width: 100%;
     padding-top: 150px;
     padding-bottom: 50px; }
+    #enjoy a {
+      color: white;
+      text-decoration: underline; }
   #pre-footer {
     background-image: linear-gradient(310deg, #1f1750, #2e00df);
     width: 100%;
@@ -1479,7 +1496,7 @@ ul, li {
     left: -80px; }
   #intro {
     /*padding-top: 300px;*/
-    margin-bottom: -100px;
+    /*margin-bottom: -100px;*/
     position: relative;
     z-index: 100; }
   #impact {
@@ -1489,7 +1506,8 @@ ul, li {
     z-index: 100; }
   #talent {
     padding-top: 300px;
-    margin-bottom: -100px;
+    padding-bottom: 400px;
+    /*margin-bottom: -100px;*/
     /*position: relative;
 	 	z-index: 100;*/ }
   #lean {
