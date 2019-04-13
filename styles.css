@@ -1380,6 +1380,9 @@ ul, li {
 @media (min-width: 0px) {
   html {
     overflow-x: hidden; }
+  body {
+    overflow-x: hidden;
+    position: relative; }
   .container-s {
     padding-left: 15px;
     padding-right: 15px;
